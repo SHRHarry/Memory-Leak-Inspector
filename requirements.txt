@@ -1,0 +1,10 @@
+altgraph==0.17.3
+pefile==2023.2.7
+pip==23.1.2
+psutil==5.9.5
+psycopg2-binary==2.9.6
+pyinstaller==5.13.0
+pyinstaller-hooks-contrib==2023.4
+pywin32-ctypes==0.2.2
+setuptools==67.8.0
+wheel==0.38.4
