@@ -1,6 +1,7 @@
 # Memory-Leak-Inspector
 
 [![Dashboard Grafana](https://img.shields.io/badge/Dashboard-Grafana-fd6600)](http://localhost:3000/?orgId=1)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue)](https://www.postgresql.org/)
 ## Introduction
 
 A tool for memory leak inspection
