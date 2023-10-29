@@ -5,5 +5,5 @@
 
 A tool for memory leak inspection
 <p align="center">
-<img src="fig/memory leak inspector.png" width = "686" height = "134" alt="memory leak inspector" />
+<img src="fig/memory leak inspector.png" width = "686" height = "250" alt="memory leak inspector" />
 </p>
