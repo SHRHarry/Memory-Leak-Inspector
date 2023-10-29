@@ -20,13 +20,17 @@ This page will guide you to install Grafana and PostgreSQL step by step.
 
 ## Grafana setup
 
-- Enter the account and the  password `admin` / `admin` on the web page
+- Enter the account `admin` and the password `admin` on the web page.
 
 <p align="center">
 <img src="fig/login.png" width = "420" height = "401" alt="login" />
 </p>
 
 - Go to `Home` > `Connections` > `Data sources` and click `Add data source`
+
+<p align="center">
+<img src="fig/data.png" width = "1049" height = "239" alt="data" />
+</p>
 
 - Choose PostgreSQL
 
