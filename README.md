@@ -17,7 +17,7 @@ cd Memory-Leak-Inspector
 pip install -r requirements.txt
 ```
 
-- To install PostgreSQL and Grafana, please checkout the [INSTALL.md](https://github.com/SHRHarry/Memory-Leak-Inspector/INSTALL.md) file
+- To install PostgreSQL and Grafana, please checkout the [INSTALL.md](https://github.com/SHRHarry/Memory-Leak-Inspector/blob/main/INSTALL.md) file
 
 ## Run without environment (pyinstaller)
 

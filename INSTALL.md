@@ -4,13 +4,14 @@ This page will guide you to install Grafana and PostgreSQL step by step.
 
 ## Grafana installation
 
-- Please go to Grafana official website to download the Windows version：[Link](https://grafana.com/grafana/download?pg=get&plcmt=selfmanaged-box1-cta1&platform=windows)
+- Please go to [Grafana official website](https://grafana.com/grafana/download?pg=get&plcmt=selfmanaged-box1-cta1&platform=windows) to download the Windows version.
 
 ## PostgreSQL installation
 
-- Please go to the PostgreSQL official website to download the Windows version：[link](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+- Please go to the [PostgreSQL official website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) to download the Windows version.
 
-- If the computer name is in Chinese, the installation may fail and the following window will pop up. At this point you can use the [download point](https://get.enterprisedb.com/postgresql/postgresql-11.2-1-windows-x64.exe) to install
+- If the computer name is in Chinese, the installation may fail and the following window will pop up. At this point you can use the [download point](https://get.enterprisedb.com/postgresql/postgresql-11.2-1-windows-x64.exe) to install.
+
 <p align="center">
 <img src="fig/fail.png" width = "758" height = "242" alt="fail" />
 </p>
