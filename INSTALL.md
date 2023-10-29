@@ -34,6 +34,10 @@ This page will guide you to install Grafana and PostgreSQL step by step.
 
 - Choose PostgreSQL
 
+<p align="center">
+<img src="fig/postgresql.png" width = "1803" height = "420" alt="postgresql" />
+</p>
+
 - Please fill in the following information and select `disable` for TLS/SSL Mode
 
 <p align="center">
