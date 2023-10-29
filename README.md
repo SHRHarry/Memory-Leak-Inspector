@@ -32,4 +32,4 @@ pip install -r requirements.txt
  memory_measurement_app.exe --exe_name <exe-name> --del_table <yes/no> --database <DB-name> --user <user> --password <password> --host <host> --port <port>
  ```
  
- - Or you can place the entire packaged file under \bin and execute MemoryInspector.exe
+ - Or you can place the entire packaged file under `\bin` and execute `MemoryInspector.exe`
