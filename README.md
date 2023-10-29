@@ -10,12 +10,14 @@ A tool for memory leak inspection
 
 ## Installation
 
-Assuming a fresh Anaconda distribution with Python 3.8, you can install the dependencies with:
+- Assuming a fresh Anaconda distribution with Python 3.8, you can install the dependencies with:
 
 ```sh
 cd Memory-Leak-Inspector
 pip install -r requirements.txt
 ```
+
+- To install PostgreSQL and Grafana, please checkout the [INSTALL.md](https://github.com/SHRHarry/Memory-Leak-Inspector/INSTALL.md) file
 
 ## Run without environment (pyinstaller)
 
@@ -29,3 +31,5 @@ pip install -r requirements.txt
  cd <path-to-exe-file>\memory_measurement_app
  memory_measurement_app.exe --exe_name <exe-name> --del_table <yes/no> --database <DB-name> --user <user> --password <password> --host <host> --port <port>
  ```
+ 
+ - Or you can place the entire packaged file under \bin and execute MemoryInspector.exe
