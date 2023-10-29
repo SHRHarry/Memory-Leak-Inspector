@@ -2,11 +2,11 @@
 
 This page will guide you to install Grafana and PostgreSQL step by step.
 
-## Grafana installation
+## Grafana Installation
 
 - Please go to [Grafana official website](https://grafana.com/grafana/download?pg=get&plcmt=selfmanaged-box1-cta1&platform=windows) to download the Windows version.
 
-## PostgreSQL installation
+## PostgreSQL Installation
 
 - Please go to the [PostgreSQL official website](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) to download the Windows version.
 
@@ -18,7 +18,7 @@ This page will guide you to install Grafana and PostgreSQL step by step.
 
 - When installing, please set the password to `admin` and the port to `5432`.
 
-## Grafana setup
+## Grafana Setup
 
 - Enter the account `admin` and the password `admin` on the web page.
 
