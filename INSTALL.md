@@ -20,15 +20,28 @@ This page will guide you to install Grafana and PostgreSQL step by step.
 
 ## Grafana setup
 
-- Run the following command to build the executable file:
- ```sh
- pyinstaller --distpath <path-to-exe-file> memory_measurement_app.spec
- ```
- 
- - Run the following command to execute the file:
-  ```sh
- cd <path-to-exe-file>\memory_measurement_app
- memory_measurement_app.exe --exe_name <exe-name> --del_table <yes/no> --database <DB-name> --user <user> --password <password> --host <host> --port <port>
- ```
- 
- - Or you can place the entire packaged file under \bin and execute MemoryInspector.exe
+- Enter the account and the  password `admin` / `admin` on the web page
+
+<p align="center">
+<img src="fig/login.png" width = "420" height = "401" alt="login" />
+</p>
+
+- Go to `Home` > `Connections` > `Data sources` and click `Add data source`
+
+- Choose PostgreSQL
+
+- Please fill in the following information and select `disable` for TLS/SSL Mode
+
+<p align="center">
+<img src="fig/disable.png" width = "719" height = "459" alt="disable" />
+</p>
+
+- Then please click the `+` in the upper right corner and select `import dashboard`, you can start using it after importing it.
+
+<p align="center">
+<img src="fig/import.png" width = "1202" height = "289" alt="import" />
+</p>
+
+<p align="center">
+<img src="fig/start.png" width = "1014" height = "463" alt="start" />
+</p>
