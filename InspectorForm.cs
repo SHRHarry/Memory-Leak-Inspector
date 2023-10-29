@@ -37,7 +37,7 @@ namespace MemoryInspector
             if (IsExePathSetted(tbExePath.Text))
             {
                 m_strExeName = Path.GetFileNameWithoutExtension(tbExePath.Text);
-                SetCmd(m_strExeName);
+                SetCmd(m_strExeName, tbDatabase.Text, tbUser.Text, tbPassword.Text, tbHost.Text, tbPort.Text);
             }
             btnRun.Enabled = false;
             btnStop.Enabled = true;
@@ -88,14 +88,19 @@ namespace MemoryInspector
             }
         }
 
-        private void SetCmd(string strExeName)
+        private void SetCmd(string strExeName, string strDatabase, string strUser, string strPassword, string strHost, string strPort)
         {
             Control.CheckForIllegalCrossThreadCalls = false;
             m_process = new Process();
             m_process.StartInfo.FileName = "./memory_measurement_app/memory_measurement_app.exe";
-            m_process.StartInfo.Arguments = string.Format("--exe_name \"{0}\" --del_table \"{1}\"",
+            m_process.StartInfo.Arguments = string.Format("--exe_name \"{0}\" --del_table \"{1}\" --database \"{2}\" --user \"{3}\" --password \"{4}\" --host \"{5}\" --port \"{6}\"",
                 strExeName,
-                "yes");
+                "yes",
+                strDatabase,
+                strUser,
+                strPassword,
+                strHost,
+                strPort);
             m_process.StartInfo.UseShellExecute = false;
             m_process.EnableRaisingEvents = true;
             m_process.Start();
@@ -120,6 +125,11 @@ namespace MemoryInspector
             }
             btnStop.Enabled = false;
             btnRun.Enabled = true;
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
